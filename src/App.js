@@ -1,18 +1,14 @@
 import './App.css';
+import Navbar from './components/Navbar';
 import Home from './components/Home';
-import Sidebar from './components/Sidebar';
-import Trending from './components/Trending';
+import Movie from './components/Movie';
 
 function App() {
   return (
     <div className="App">
-         
-          <div className='HomePage'>
-            <Sidebar />
-            <Home />
-            <Trending />
-          </div>
-          
+        <Navbar />
+        <Home />
+        <Movie />
     </div>
   );
 }
